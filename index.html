@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مراقبة العملات الرقمية - صفحة ثابتة</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>مراقبة العملات الرقمية (ثابتة بدون تحديث تلقائي)</h1>
+    <button id="refreshBtn">تحديث الآن</button>
+  </header>
+
+  <section class="config">
+    <label>قائمة العملات: BTC, ETH, SOL (ثابتة ويمكن تعديلها في app.js)</label>
+  </section>
+
+  <table id="watch">
+    <thead>
+      <tr>
+        <th>العملة</th>
+        <th>السعر (USD)</th>
+        <th>تغير 24س</th>
+        <th>RSI(14)</th>
+        <th>EMA9</th>
+        <th>EMA21</th>
+        <th>اختراق 20‑شمعة</th>
+        <th>آخر تحديث</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <footer>
+    <small>البيانات لأغراض تعليمية فقط. لا تُعد نصيحة استثمارية.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

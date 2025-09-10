@@ -1,0 +1,15 @@
+:root{
+  --buy:#0b8f3e; --sell:#c22; --neutral:#777;
+}
+body{font-family:system-ui,Arial; margin:0; background:#f7f7f9; color:#222;}
+header{display:flex; align-items:center; justify-content:space-between; padding:12px 16px; background:#1f2937; color:#fff;}
+button#refreshBtn{background:#2563eb; color:#fff; border:0; padding:8px 14px; border-radius:8px; cursor:pointer;}
+button#refreshBtn:hover{background:#1d4ed8;}
+table{width:100%; border-collapse:collapse; background:#fff; margin:12px 0;}
+th,td{padding:10px; border-bottom:1px solid #eee; text-align:center; font-size:14px;}
+thead th{background:#e5e7eb;}
+.status{font-weight:700;}
+.buy{color:var(--buy);}
+.sell{color:var(--sell);}
+.hold{color:var(--neutral);}
+footer{padding:10px 16px; color:#555;}
